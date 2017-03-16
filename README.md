@@ -38,7 +38,10 @@ Unban IP (Fail2Ban): `fail2ban-client set JAIL unbanip IP`
 
 > ### Ubuntu
 
-Update, upgrade, clean: `apt-get update -y && apt-get upgrade -y && apt-get --purge autoremove -y && apt-get clean`
+Update, upgrade, clean:
+```sh
+apt-get update -y && apt-get upgrade -y && apt-get --purge autoremove -y && apt-get clean
+```
 
 Basic tools install: `apt-get install -y wget nano htop bzip2 zip unzip screen`
 
