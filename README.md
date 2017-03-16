@@ -2,9 +2,11 @@
 ---
 
 A personal reference sheet (easy copy/paste) and script repository for everything from typical fresh-install commands to complete configurations. Mostly setup for my own use, but feel free to add a pull request if there's anything that should be added or changed.
+
 ---
 
 > ### CentOS (Preferred)
+
 Update, upgrade, clean:
 ```sh
 yum update -y && yum upgrade -y && yum autoremove -y && yum clean all
@@ -35,6 +37,7 @@ Unban IP (Fail2Ban): `fail2ban-client set JAIL unbanip IP`
 ---
 
 > ### Ubuntu
+
 Update, upgrade, clean: `apt-get update -y && apt-get upgrade -y && apt-get --purge autoremove -y && apt-get clean`
 
 Basic tools install: `apt-get install -y wget nano htop bzip2 zip unzip screen`
