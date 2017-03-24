@@ -1,16 +1,1 @@
 theme: jekyll-theme-cayman
-
-##
-# Parameters for WikiToJekyll
-# Used by Rake:wikisub, Rake:wiki and wikiLinks generator plugin
-##
-wikiToJekyll:
-  user_name: techjwalker
-  repository_name: Reference-Sheet
-  baseurl: /Reference-Sheet
-  deploy_remote: "origin"
-  deploy_branch: "master"
-  wiki_repository_url: https://github.com/techjwalker/Reference-Sheet.wiki.git
-  wiki_source: "_wiki"
-  wiki_dest: "wiki"
-  commit_and_push: true
