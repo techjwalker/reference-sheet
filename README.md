@@ -1,11 +1,11 @@
-## A List of Common Commands, Procedures, and Information
+### A List of Common Commands, Procedures, and Information
 ---
 
 A personal reference sheet (easy copy/paste) and script repository for everything from typical fresh-install commands to complete configurations. Mostly setup for my own use, but feel free to add a pull request if there's anything that should be added or changed.
 
 ---
 
-### CentOS (Preferred)
+## CentOS
 
 Update, upgrade, clean:
 ```sh
@@ -36,7 +36,7 @@ Unban IP (Fail2Ban): `fail2ban-client set JAIL unbanip IP`
 
 ---
 
-### Ubuntu
+## Ubuntu
 
 Update, upgrade, clean:
 ```sh
