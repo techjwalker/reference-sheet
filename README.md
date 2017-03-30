@@ -1,3 +1,28 @@
+<p align="center">
+    <a href="https://github.com/techjwalker/reference-sheet/issues">
+        <img src="https://img.shields.io/github/issues-raw/techjwalker/reference-sheet.svg?style=flat-square"
+             alt="Issues">
+    </a>
+    <a href="https://github.com/techjwalker/reference-sheet/pulls">
+        <img src="https://img.shields.io/github/issues-pr-raw/techjwalker/reference-sheet.svg?style=flat-square"
+             alt="Pull Requests">
+    </a>
+    <a href="https://github.com/techjwalker/reference-sheet/graphs/contributors">
+        <img src="https://img.shields.io/github/contributors/techjwalker/reference-sheet.svg?style=flat-square"
+             alt="Contributors">
+    </a>
+    <a href="https://github.com/techjwalker/reference-sheet">
+        <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square"
+             alt="Contribs Welcome">
+    </a>
+</p>
+<p align="center">
+    <a href="https://tastynode.com">
+        <img src="https://img.shields.io/badge/sponsored%20by-tastynode.com-red.svg?style=flat-square"
+             alt="TastyNode.com">
+    </a>
+</p>
+
 Reference Sheet
 =======
 
