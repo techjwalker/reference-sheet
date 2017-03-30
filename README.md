@@ -1,10 +1,16 @@
-# Reference Sheet
+Reference Sheet
+=======
 
 A List of Common Commands, Procedures, and Information.
 
 A personal reference sheet (easy copy/paste) and script repository for everything from typical fresh-install commands to complete configurations. Mostly setup for my own use, but feel free to add a pull request if there's anything that should be added or changed.
 
-## CentOS
+Common Commands
+---------------
+
+This set of common commands are used more frequently, especially when working with a newly installed system. For specific use-case commands, check the corresponding section. If a command is missing here, and seems like it would be beneficial to add, create a pull request to add the changes.
+
+### CentOS
 
 Update, upgrade, clean:
 ```sh
@@ -35,7 +41,7 @@ Unban IP (Fail2Ban): `fail2ban-client set JAIL unbanip IP`
 
 ---
 
-## Ubuntu
+### Ubuntu
 
 Update, upgrade, clean:
 ```sh
