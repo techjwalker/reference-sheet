@@ -85,8 +85,6 @@ fail2ban-client status | grep "Jail list:" | sed "s/ //g" | awk '{split($2,a,","
 
 Unban IP (Fail2Ban): `fail2ban-client set JAIL unbanip IP`
 
----
-
 ### Ubuntu
 
 Update, upgrade, clean:
