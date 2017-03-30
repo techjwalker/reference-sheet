@@ -5,7 +5,7 @@ A personal reference sheet (easy copy/paste) and script repository for everythin
 
 ---
 
-> ### CentOS (Preferred)
+### CentOS (Preferred)
 
 Update, upgrade, clean:
 ```sh
@@ -36,7 +36,7 @@ Unban IP (Fail2Ban): `fail2ban-client set JAIL unbanip IP`
 
 ---
 
-> ### Ubuntu
+### Ubuntu
 
 Update, upgrade, clean:
 ```sh
