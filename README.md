@@ -30,6 +30,27 @@ A List of Common Commands, Procedures, and Information.
 
 A personal reference sheet (easy copy/paste) and script repository for everything from typical fresh-install commands to complete configurations. Mostly setup for my own use, but feel free to add a pull request if there's anything that should be added or changed.
 
+Getting Started
+---------------
+
+### Issues
+
+Found an issue with a command, script, or even just some spelling, and aren't able to correct it and submit a pull request yourself?
+
+Log it as an issue, and someone will eventually fix it (likely me).
+
+Something you want to see added, but have no clue how to add it because GitHub is like some advanced nanobiotechnology to you?
+
+Log it as an issue, and someone smarter than you will either add it or tell you they don't care because you're an unsupported lifeform and they haven't updated to the latest version of empathy yet.
+
+### Contributions
+
+Know how to work GitHub like your neighbor works your significant other while you're away at work? Great!
+
+If it's minor, add it right in to the file and submit a pull request on the revision.
+
+Big addition, or change? Fork the whole darn thing and make your changes from the comfort of your own repository before submitting a pull request. Or just keep it to yourself and steal the whole reference sheet, because your parents never loved you as a child, and it's the only way you can feel satisfied anymore.
+
 Common Commands
 ---------------
 
