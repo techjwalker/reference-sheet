@@ -1,9 +1,8 @@
-### A List of Common Commands, Procedures, and Information
----
+# Reference Sheet
+
+A List of Common Commands, Procedures, and Information.
 
 A personal reference sheet (easy copy/paste) and script repository for everything from typical fresh-install commands to complete configurations. Mostly setup for my own use, but feel free to add a pull request if there's anything that should be added or changed.
-
----
 
 ## CentOS
 
