@@ -30,6 +30,12 @@ A List of Common Commands, Procedures, and Information.
 
 A personal reference sheet (easy copy/paste) and script repository for everything from typical fresh-install commands to complete configurations. Mostly setup for my own use, but feel free to add a pull request if there's anything that should be added or changed.
 
+If you are new to Linux, and are using this reference sheet to help you learn and try new things, try using one of these to test with:
+
+* Easy: [Online Bash Utility](https://www.tutorialspoint.com/execute_bash_online.php)
+* Standard: [Git for Windows - With Git Bash](https://git-for-windows.github.io/)
+* Advanced: [cygwin - Linux for Windows](https://www.cygwin.com/)
+
 Getting Started
 ---------------
 
@@ -104,3 +110,24 @@ List all banned IPs (Fail2Ban):
 ```sh
 fail2ban-client status | grep "Jail list:" | sed "s/ //g" | awk '{split($2,a,",");for(i in a) system("fail2ban-client status " a[i])}' | grep "Status\|IP list"
 ```
+
+How-To
+---------------
+
+Information on what to do, and what kind of commands to run, in order to accomplish different things in certain scenarios.
+
+Keep in mind there are typically many different ways to do things, and often better than what's suggested here. If you personally know a better solution, mention it in an issue or add it yourself with a pull request.
+
+### Navigation
+
+Check what's in your current directory: `ls`
+
+Find the directory you're already in: `pwd` or `echo $PWD`
+
+Navigate to a different directory: `cd folder`
+
+Navigate to previous directory: `cd -`
+
+Navigate up a directory: `cd ../`
+
+Navigate to home directory: `cd ~`
