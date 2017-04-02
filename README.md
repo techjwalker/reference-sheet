@@ -74,27 +74,27 @@ Install Epel, update, upgrade, clean:
 yum install -y epel-release && yum update -y && yum upgrade -y && yum autoremove -y && yum clean all
 ```
 
-Basic tools install
+Basic tools install:
 ```sh
 yum install -y wget nano htop bzip2 zip unzip screen
 ```
 
-Extra tools install
+Extra tools install:
 ```sh
 yum install -y atop nload smartmontools java
 ```
 
-Upgrade from minimal install
+Upgrade from minimal install:
 ```sh
 yum groupinstall "Base"
 ```
 
-List jails (Fail2Ban)
+List jails (Fail2Ban):
 ```sh
 fail2ban-client status
 ```
 
-List banned IPs in single jail (Fail2Ban)
+List banned IPs in single jail (Fail2Ban):
 ```sh
 fail2ban-client status JAIL
 ```
@@ -104,7 +104,7 @@ List all banned IPs (Fail2Ban):
 fail2ban-client status | grep "Jail list:" | sed "s/ //g" | awk '{split($2,a,",");for(i in a) system("fail2ban-client status " a[i])}' | grep "Status\|IP list"
 ```
 
-Unban IP (Fail2Ban)
+Unban IP (Fail2Ban):
 ```sh
 fail2ban-client set JAIL unbanip IP
 ```
@@ -116,22 +116,22 @@ Update, upgrade, clean:
 apt-get update -y && apt-get upgrade -y && apt-get --purge autoremove -y && apt-get clean
 ```
 
-Basic tools install
+Basic tools install:
 ```sh
 apt-get install -y wget nano htop bzip2 zip unzip screen
 ```
 
-Extra tools install
+Extra tools install:
 ```sh
 apt-get install -y atop nload smartmontools java
 ```
 
-List jails (Fail2Ban)
+List jails (Fail2Ban):
 ```sh
 fail2ban-client status
 ```
 
-List banned IPs in single jail (Fail2Ban)
+List banned IPs in single jail (Fail2Ban):
 ```sh
 fail2ban-client status JAIL
 ```
@@ -150,32 +150,32 @@ Keep in mind there are typically many different ways to do things, and often bet
 
 ### Navigation
 
-Check what's in your current directory
+Check what's in your current directory:
 ```sh
 ls
 ```
 
-Find the directory you're already in
+Find the directory you're already in:
 ```sh
 pwd
 ```
 
-Navigate to a different directory
+Navigate to a different directory:
 ```sh
 cd folder
 ```
 
-Navigate to previous directory
+Navigate to previous directory:
 ```sh
 cd -
 ```
 
-Navigate up a directory
+Navigate up a directory:
 ```sh
 cd ../
 ```
 
-Navigate to home directory
+Navigate to home directory:
 ```sh
 cd ~
 ```
