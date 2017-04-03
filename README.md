@@ -144,9 +144,13 @@ fail2ban-client status | grep "Jail list:" | sed "s/ //g" | awk '{split($2,a,","
 Simple How-To's
 ---------------
 
-Information on what to do, and what kind of commands to run, in order to accomplish different things in certain scenarios.
+Information on the basics.
 
-Keep in mind there are typically many different ways to do things, and often better than what's suggested here. If you personally know a better solution, mention it in an issue or add it yourself with a pull request.
+This is the stuff you'll want to commit to memory.
+
+Much of the information listed here is restricted to just the "need-to-know" stuff, rather than having too much information all at once, to help avoid confusion and to make it easier to pick up for beginners.
+
+If there's anything not listed in this section, try a quick Google search for more info.
 
 ### Navigation
 
@@ -194,7 +198,7 @@ rm file
 
 Delete a directory and all contents:
 ```sh
-rm -r directory
+rm -r folder
 ```
 
 Delete everything in the current directory without confirmation:
@@ -250,4 +254,36 @@ Key Combination: CTRL-a
 Type :quit then hit Enter
 ```
 
-NOTE: Closing a screen session does not guarantee you'll close whatever is running within that session.
+NOTE: Closing a screen session does not guarantee that you will close whatever is running within that session.
+
+Use-Case How-To's
+---------------
+
+Information on what to do, and what kind of commands to run, in order to accomplish different things in certain scenarios.
+
+Keep in mind there are typically many different ways to do things, and often better than what's suggested here. If you personally know a better solution, mention it in an issue or add it yourself with a pull request.
+
+### Kill a Frozen Process
+
+So something went south, a process caught fire, and now you have 80% memory usage on a process you can't close out of anymore.
+
+Don't worry, here's how you use the fire extinguisher:
+
+First, find the PID of the process. Easiest way is to check `top`.
+```sh
+top
+```
+
+Not sure which one is the right one? Grab the PID of whichever process seems most likely the one you want, then use this:
+```sh
+ls -l /proc/PID/cwd
+```
+
+Replacing PID with the PID you copied, of course.
+
+This should tell you which folder that process is running from, which should (hopefully) help you verify whether it's the process you need to force close.
+
+Then run this command to kill that process:
+```sh
+kill -9 PID
+```
