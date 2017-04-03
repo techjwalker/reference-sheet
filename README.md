@@ -141,7 +141,7 @@ List all banned IPs (Fail2Ban):
 fail2ban-client status | grep "Jail list:" | sed "s/ //g" | awk '{split($2,a,",");for(i in a) system("fail2ban-client status " a[i])}' | grep "Status\|IP list"
 ```
 
-How-To
+Simple How-To's
 ---------------
 
 Information on what to do, and what kind of commands to run, in order to accomplish different things in certain scenarios.
@@ -179,3 +179,75 @@ Navigate to home directory:
 ```sh
 cd ~
 ```
+
+### File Manipulation
+
+Create a new directory:
+```sh
+mkdir folder
+```
+
+Delete a single file:
+```sh
+rm file
+```
+
+Delete a directory and all contents:
+```sh
+rm -r directory
+```
+
+Delete everything in the current directory without confirmation:
+```sh
+rm -fr *
+```
+
+Move/Rename a file:
+```sh
+mv file newfile
+```
+
+Move/Rename a directory:
+```sh
+mv folder newfolder
+```
+
+Copy a file:
+```sh
+cp file newfile
+```
+
+Copy a directory:
+```sh
+cp -R folder newfolder
+```
+
+### Screens (Multiple Sessions)
+
+Check existing screens:
+```sh
+screen -ls
+```
+
+Start new screen session with name:
+```sh
+screen -S name
+```
+
+Attach to an already running session (if there are multiple screens with the same name, use the output from `screen -ls` to copy the full screen ID):
+```sh
+screen -x name
+```
+
+Detach from current session:
+```
+Key Combination: CTRL-a d
+```
+
+Force the attached session to close completely:
+```
+Key Combination: CTRL-a
+Type :quit then hit Enter
+```
+
+NOTE: Closing a screen session does not guarantee you'll close whatever is running within that session.
