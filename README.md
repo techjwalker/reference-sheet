@@ -279,7 +279,7 @@ Not sure which one is the right one? Grab the PID of whichever process seems mos
 ls -l /proc/PID/cwd
 ```
 
-Replacing PID with the PID you copied, of course.
+Replacing PID with the PID you copied from `top`, of course.
 
 This should tell you which folder that process is running from, which should (hopefully) help you verify whether it's the process you need to force close.
 
